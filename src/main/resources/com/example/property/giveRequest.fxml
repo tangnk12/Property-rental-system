@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="316.0" prefWidth="565.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.property.giveRequest">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="-1.0" prefHeight="55.0" prefWidth="616.0" style="-fx-background-color: #d9d9d9;">
+         <children>
+            <Text fx:id="configureText" layoutX="212.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Request Configure">
+               <font>
+                  <Font name="Californian FB" size="20.0" />
+               </font>
+            </Text>
+            <Button fx:id="loginMenu" layoutX="33.0" layoutY="13.0" mnemonicParsing="false" onAction="#returnMain" text="Back To Menu">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <TextArea fx:id="requestField" layoutX="182.0" layoutY="102.0" prefHeight="182.0" prefWidth="202.0" promptText="Here Show User Detail" />
+      <Text layoutX="246.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Detail" />
+      <Button fx:id="buttonGetRequestID" layoutX="425.0" layoutY="232.0" mnemonicParsing="false" onAction="#setGetRequestID" prefHeight="25.0" prefWidth="115.0" text="Approve Request" />
+      <TextField fx:id="textGivePassword" layoutX="411.0" layoutY="193.0" />
+      <Text layoutX="440.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password Setting" />
+      <ComboBox fx:id="eventsSelector" layoutX="14.0" layoutY="134.0" onAction="#initialize" prefWidth="150.0" />
+      <Button fx:id="refresh" layoutX="31.0" layoutY="193.0" mnemonicParsing="false" onAction="#giveRequest" text="Show user detail" />
+      <Button fx:id="buttonReject" layoutX="26.0" layoutY="245.0" mnemonicParsing="false" onAction="#rejectRequest" prefHeight="25.0" prefWidth="115.0" text="Decline Request" textFill="RED" />
+      <Text layoutX="52.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose a user" />
+      <TextField fx:id="textGiveUsername" layoutX="411.0" layoutY="134.0" />
+      <Text layoutX="434.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username Setting" wrappingWidth="104.0" />
+      <Separator layoutX="172.0" layoutY="62.0" orientation="VERTICAL" prefHeight="237.0" prefWidth="0.0" />
+      <Separator layoutX="396.0" layoutY="62.0" orientation="VERTICAL" prefHeight="237.0" prefWidth="0.0" />
+      
+   </children>
+</AnchorPane>

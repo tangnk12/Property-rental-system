@@ -1,0 +1,202 @@
+[
+  {
+    "Contact Number": "0123408161",
+    "Email": "alvin@gmail.com",
+    "Username": "G0002",
+    "Gender": "Male",
+    "UserType": "Owner",
+    "Password": "G0002",
+    "Name": "Alvin Tan"
+  },
+  {
+    "Contact Number": "0163379657",
+    "Email": "cynthia@gmail.com",
+    "Username": "G0003",
+    "Gender": "Female",
+    "UserType": "Agent",
+    "Password": "G0003",
+    "Name": "Cynthia Tan"
+  },
+  {
+    "Contact Number": "0183954188",
+    "Email": "shen@gmail.com",
+    "Username": "G0004",
+    "Gender": "Male",
+    "UserType": "Agent",
+    "Password": "G0004",
+    "Name": "Shen"
+  },
+  {
+    "Contact Number": "0126819860",
+    "Email": "jeniferg@gmail.com",
+    "Username": "G0005",
+    "Gender": "Female",
+    "UserType": "Agent",
+    "Password": "G0005",
+    "Name": "Jenifer Guo"
+  },
+  {
+    "Contact Number": "0132479888",
+    "Email": "eeling@gmail.com",
+    "Username": "G0006",
+    "Gender": "Female",
+    "UserType": "Owner",
+    "Password": "G0006",
+    "Name": "Ee Ling"
+  },
+  {
+    "Contact Number": "0122666481",
+    "Email": "waniev@gmail.com",
+    "Username": "G0007",
+    "Gender": "Female",
+    "UserType": "Owner",
+    "Password": "G0007",
+    "Name": "Wanie Val"
+  },
+  {
+    "Contact Number": "0169283184",
+    "Email": "gooi@gmail.com",
+    "Username": "G0008",
+    "Gender": "Male",
+    "UserType": "Agent",
+    "Password": "G0008",
+    "Name": "Hugo Gooi"
+  },
+  {
+    "Contact Number": "0133312818",
+    "Email": "mkc@gmail.com",
+    "Username": "G0009",
+    "Gender": "Female",
+    "UserType": "Agent",
+    "Password": "G0009",
+    "Name": "McKayC Teh"
+  },
+  {
+    "Contact Number": "0122971898",
+    "Email": "jw@gmail.com",
+    "Username": "G0010",
+    "Gender": "Male",
+    "UserType": "Owner",
+    "Password": "G0010",
+    "Name": "Jared Wong"
+  },
+  {
+    "Contact Number": "0126219751",
+    "Email": "charles@gmail.com",
+    "Username": "G0011",
+    "Gender": "Male",
+    "UserType": "Agent",
+    "Password": "G0011",
+    "Name": "Charles Gan"
+  },
+  {
+    "Contact Number": "0122880179",
+    "Email": "maychan@gmail.com",
+    "Username": "G0012",
+    "Gender": "Female",
+    "UserType": "Agent",
+    "Password": "G0012",
+    "Name": "May Chan"
+  },
+  {
+    "Contact Number": "0133995698",
+    "Email": "johnlee@gmail.com",
+    "Username": "G0013",
+    "Gender": "Male",
+    "UserType": "Agent",
+    "Password": "G0013",
+    "Name": "John Lee"
+  },
+  {
+    "Contact Number": "0182139009",
+    "Email": "ganesha@gmail.com",
+    "Username": "G0014",
+    "Gender": "Male",
+    "UserType": "Agent",
+    "Password": "G0014",
+    "Name": "Ganesha"
+  },
+  {
+    "Contact Number": "0183740266",
+    "Email": "emma@gmail.com",
+    "Username": "G0015",
+    "Gender": "Female",
+    "UserType": "Agent",
+    "Password": "G0015",
+    "Name": "Emma"
+  },
+  {
+    "Contact Number": "0122566608",
+    "Email": "marcusy@gmail.com",
+    "Username": "G0016",
+    "Gender": "Male",
+    "UserType": "Owner",
+    "Password": "G0016",
+    "Name": "Marcus Yap"
+  },
+  {
+    "Contact Number": "0175602008",
+    "Email": "aziziR@gmail.com",
+    "Username": "G0017",
+    "Gender": "Male",
+    "UserType": "Agent",
+    "Password": "G0017",
+    "Name": "Azizi Rahim"
+  },
+  {
+    "Contact Number": "0123456391",
+    "Email": "michael@gmail.com",
+    "Username": "G0018",
+    "Gender": "Male",
+    "UserType": "Agent",
+    "Name": "Michael Chua",
+    "Password": "G0018"
+  },
+  {
+    "Contact Number": "0163425250",
+    "Email": "vchin@gmail.com",
+    "Username": "G0019",
+    "Gender": "Male",
+    "UserType": "Owner",
+    "Name": "Vin Chin",
+    "Password": "G0019"
+  },
+  {
+    "Contact Number": "0175553800",
+    "Email": "darrenlim@gmail.com",
+    "Username": "G0020",
+    "Gender": "Male",
+    "UserType": "Agent",
+    "Name": "Derren E.K.Lim",
+    "Password": "G0020"
+  },
+  {
+    "Contact Number": "0182655669",
+    "Email": "jack@gmail.com",
+    "Username": "G0021",
+    "Gender": "Male",
+    "UserType": "Agent",
+    "Name": "Jack Siew",
+    "Password": "G0021"
+  },
+  {
+    "Contact Number": "0167472963",
+    "Email": "1191101570@gmail.com",
+    "Username": "G0001",
+    "Contact Phone": "0167472963",
+    "Gender": "Male",
+    "UserType": "Agent",
+    "Password": "G0001",
+    "Name": "Tan Yong Qi"
+  },
+  {
+    "Contact Number": "0123456789",
+    "Email": "NINGKANG@gmail.com",
+    "Username": "T0003",
+    "Contact Phone": "0123456789",
+    "Gender": "Male",
+    "UserType": "Tenant",
+    "Name": "Tang Ning Kang",
+    "Password": "T0003"
+  }
+]

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="582.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.property.submitdetail">
+   <children>
+      <AnchorPane prefHeight="61.0" prefWidth="599.0" style="-fx-background-color: #d9d9d9;">
+         <children>
+            <Text fx:id="configureText" layoutX="205.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registeration Request">
+               <font>
+                  <Font name="Californian FB" size="22.0" />
+               </font>
+            </Text>
+            <Button fx:id="buttonToLogin" layoutX="31.0" layoutY="20.0" mnemonicParsing="false" onAction="#returnLogin" text="Return To Main Menu">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Text layoutX="272.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Full Name" />
+      <TextField fx:id="getName" layoutX="225.0" layoutY="99.0" />
+      <Text layoutX="260.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone number" />
+      <TextField fx:id="getPhone" layoutX="227.0" layoutY="148.0" />
+      <Text layoutX="273.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Email" />
+      <TextField fx:id="getEmail" layoutX="225.0" layoutY="191.0" />
+      <RadioButton fx:id="getSex" layoutX="223.0" layoutY="233.0" mnemonicParsing="false" text="Male">
+         <toggleGroup>
+            <ToggleGroup fx:id="Gender" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="getSex2" layoutX="337.0" layoutY="233.0" mnemonicParsing="false" text="Female" toggleGroup="$Gender" />
+      <Text layoutX="280.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender" />
+      <Text layoutX="251.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your account is for" />
+      <RadioButton fx:id="getAgent" layoutX="184.0" layoutY="295.0" mnemonicParsing="false" text="Agent">
+         <toggleGroup>
+            <ToggleGroup fx:id="userType" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="getOwner" layoutX="266.0" layoutY="295.0" mnemonicParsing="false" text="Owner" toggleGroup="$userType" />
+      <RadioButton fx:id="getTenant" layoutX="367.0" layoutY="295.0" mnemonicParsing="false" text="Tenant" toggleGroup="$userType" />
+      <Button fx:id="requestSubmit" layoutX="269.0" layoutY="348.0" mnemonicParsing="false" onAction="#confirmSubmit" text="Submit" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="647.0" prefWidth="806.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.property.DisplayDetailController">
+   <children>
+      <Pane layoutX="-8.0" prefHeight="42.0" prefWidth="833.0" style="-fx-background-color: #d9d9d9;" />
+      <AnchorPane layoutX="9.0" layoutY="9.0" minHeight="0.0" minWidth="0.0" prefHeight="637.0" prefWidth="466.0">
+         <children>
+            <Button fx:id="backMenuButton" layoutX="-12.0" layoutY="-10.0" mnemonicParsing="false" onAction="#backToMenu" prefHeight="45.0" prefWidth="213.0" text="Back To Menu">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Separator layoutX="-12.0" layoutY="32.0" prefHeight="6.0" prefWidth="829.0" />
+            <AnchorPane layoutX="10.0" layoutY="342.0" prefHeight="131.0" prefWidth="452.0">
+               <children>
+                  <Label layoutX="-1.0" layoutY="7.0" text="PROPERTY FEATURE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <CheckBox fx:id="aircon" disable="true" layoutX="-1.0" layoutY="40.0" mnemonicParsing="false" opacity="0.99" prefHeight="24.0" prefWidth="106.0" text="Air Conditioner" />
+                  <CheckBox fx:id="heater" disable="true" layoutX="145.0" layoutY="41.0" mnemonicParsing="false" opacity="0.99" prefHeight="24.0" prefWidth="106.0" text="Water Heater" />
+                  <CheckBox fx:id="fridge" disable="true" layoutX="295.0" layoutY="41.0" mnemonicParsing="false" opacity="0.99" prefHeight="24.0" prefWidth="106.0" text="Fridge" />
+                  <CheckBox fx:id="tv" disable="true" layoutX="-1.0" layoutY="68.0" mnemonicParsing="false" opacity="0.99" prefHeight="24.0" prefWidth="106.0" text="Television" />
+                  <CheckBox fx:id="wifi" disable="true" layoutX="145.0" layoutY="68.0" mnemonicParsing="false" opacity="0.99" prefHeight="24.0" prefWidth="106.0" text="Wifi" />
+                  <CheckBox fx:id="balcony" disable="true" layoutX="295.0" layoutY="68.0" mnemonicParsing="false" opacity="0.99" prefHeight="24.0" prefWidth="106.0" text="Balcony" />
+                  <CheckBox fx:id="kitchenCabinet" disable="true" layoutX="-1.0" layoutY="98.0" mnemonicParsing="false" opacity="0.99" prefHeight="24.0" prefWidth="106.0" text="Kitchen Cabinet" />
+                  <Separator layoutX="-23.0" layoutY="-1.0" prefHeight="3.0" prefWidth="482.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="9.0" layoutY="477.0" prefHeight="146.0" prefWidth="448.0">
+               <children>
+                  <Label layoutX="1.0" layoutY="5.0" text="FACILITIES">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <CheckBox fx:id="security" disable="true" layoutY="36.0" mnemonicParsing="false" opacity="0.99" prefHeight="24.0" prefWidth="125.0" text="24-hours Security" />
+                  <CheckBox fx:id="playground" disable="true" layoutX="156.0" layoutY="89.0" mnemonicParsing="false" opacity="0.99" prefHeight="24.0" prefWidth="106.0" text="Playground" />
+                  <CheckBox fx:id="parking" disable="true" layoutX="156.0" layoutY="35.0" mnemonicParsing="false" opacity="0.99" prefHeight="24.0" prefWidth="106.0" text="Parking" />
+                  <CheckBox fx:id="basketball" disable="true" layoutX="295.0" layoutY="89.0" mnemonicParsing="false" opacity="0.99" prefHeight="24.0" prefWidth="128.0" text="Basketball Court" />
+                  <CheckBox fx:id="bbq" disable="true" layoutY="63.0" mnemonicParsing="false" opacity="0.99" prefHeight="24.0" prefWidth="142.0" text="BBQ" />
+                  <CheckBox fx:id="market" disable="true" layoutX="156.0" layoutY="63.0" mnemonicParsing="false" opacity="0.99" prefHeight="23.0" prefWidth="106.0" text="Mini Market" />
+                  <CheckBox fx:id="gym" disable="true" layoutX="295.0" layoutY="61.0" mnemonicParsing="false" opacity="0.99" prefHeight="24.0" prefWidth="133.0" text="Gymnasium" />
+                  <CheckBox fx:id="jogging" disable="true" layoutY="90.0" mnemonicParsing="false" opacity="0.99" prefHeight="24.0" prefWidth="138.0" text="Jogging track" />
+                  <CheckBox fx:id="badminton" disable="true" layoutY="117.0" mnemonicParsing="false" opacity="0.99" prefHeight="24.0" prefWidth="126.0" text="Badminton Court" />
+                  <CheckBox fx:id="pool" disable="true" layoutX="295.0" layoutY="34.0" mnemonicParsing="false" opacity="0.99" prefHeight="24.0" prefWidth="126.0" text="Swimming Pool" />
+               </children>
+            </AnchorPane>
+            <HBox alignment="CENTER" layoutX="-2.0" layoutY="39.0" prefHeight="292.0" prefWidth="466.0">
+               <children>
+                  <ImageView fx:id="imageHouse" fitHeight="269.0" fitWidth="452.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@noimage.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children></AnchorPane>
+      <AnchorPane layoutX="482.0" layoutY="-1.0" minHeight="0.0" minWidth="0.0" prefHeight="647.0" prefWidth="344.0">
+         <children>
+            <Button fx:id="editProp" layoutX="3.0" layoutY="605.0" mnemonicParsing="false" onAction="#editPropClicked" prefHeight="41.0" prefWidth="173.0" text="Edit Property">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Label fx:id="propName" layoutX="17.0" layoutY="45.0" prefHeight="58.0" prefWidth="323.0" text="Property Name" textAlignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Separator layoutY="45.0" orientation="VERTICAL" prefHeight="603.0" prefWidth="6.0" />
+            <Button fx:id="deleteProp" layoutX="178.0" layoutY="605.0" mnemonicParsing="false" onAction="#deletePropClicked" prefHeight="41.0" prefWidth="167.0" text="Delete Property">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Label fx:id="propType" layoutX="21.0" layoutY="100.0" prefHeight="30.0" prefWidth="244.0" text="Property Type">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="propAddress" editable="false" layoutX="15.0" layoutY="216.0" prefHeight="183.0" prefWidth="283.0" style="-fx-background-color: transparent; -fx-background-insets: 0px;" text="Address">
+               <font>
+                  <Font size="18.0" />
+               </font></TextArea>
+            <Separator layoutX="3.0" layoutY="603.0" prefHeight="1.0" prefWidth="341.0" />
+            <Label layoutX="17.0" layoutY="541.0" prefHeight="26.0" prefWidth="90.0" text="Posted by">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="415.0" prefHeight="42.0" prefWidth="99.0" text="Price (RM)">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="propPrice" layoutX="121.0" layoutY="414.0" prefHeight="46.0" prefWidth="120.0" text="2000">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="471.0" prefHeight="26.0" prefWidth="126.0" text="Rental Rate (RM)">
+               <font>
+                  <Font size="17.0" />
+               </font></Label>
+            <Label fx:id="propRentRate" contentDisplay="RIGHT" layoutX="15.0" layoutY="493.0" prefHeight="34.0" prefWidth="63.0" text="11.10" textAlignment="RIGHT">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="75.0" layoutY="499.0" prefHeight="22.0" prefWidth="81.0" text="per sq. ft.">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="propertyPoster" layoutX="114.0" layoutY="534.0" prefHeight="36.0" prefWidth="193.0" text="Owner/Agent">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="propSize" layoutX="21.0" layoutY="130.0" prefHeight="30.0" prefWidth="51.0" text="1200">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="31.0" layoutY="571.0" prefHeight="26.0" prefWidth="63.0" text="Contact">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="contact" layoutX="115.0" layoutY="567.0" prefHeight="36.0" prefWidth="193.0" text="tel Num">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="numBed" layoutX="21.0" layoutY="160.0" prefHeight="22.0" prefWidth="25.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="propSize11" layoutX="46.0" layoutY="160.0" prefHeight="22.0" prefWidth="99.0" text="Bedroom">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="numBath" layoutX="21.0" layoutY="182.0" prefHeight="22.0" prefWidth="25.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="propSize111" layoutX="46.0" layoutY="182.0" prefHeight="22.0" prefWidth="99.0" text="Bathroom">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="77.0" layoutY="133.0" prefHeight="22.0" prefWidth="37.0" text="sq. ft.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="155.0" layoutY="94.0" prefHeight="42.0" prefWidth="51.0" text="Status">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="propStatus" layoutX="212.0" layoutY="92.0" prefHeight="46.0" prefWidth="99.0" text="Active">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
